@@ -109,8 +109,6 @@ header .nav-top .right-content .login-div a {
 
 .navbar {
     background-color: #fff;
-    position: fixed;
-    display: contents;
 }
 
 .container-navbar {
@@ -164,7 +162,7 @@ header .nav-top .right-content .login-div a {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 30px;
+    top: 22px;
     left: 0;
     background-color: #fff;
     padding: 10px 0;
@@ -197,7 +195,7 @@ header .nav-top .right-content .login-div a {
 
 .slider {
     position: relative;
-    width: 1905px;
+    max-width: 100%;
     height: 830px;
     overflow: hidden;
     margin: 0 auto;
@@ -282,7 +280,7 @@ header .nav-top .right-content .login-div a {
     color: rgb(102, 102, 102);
 }
 
-.btn {
+.about-btn {
     background-color: DodgerBlue;
     border: none;
     border-radius: 6px;
@@ -301,12 +299,12 @@ header .nav-top .right-content .login-div a {
     height: 50.66px;
 }
 
-.btn i {
+.about-btn i {
     display: inline-block;
     margin-left: 18px;
 }
 
-.btn:hover {
+.about-btn:hover {
     background-color: RoyalBlue;
 }
 
@@ -317,3 +315,558 @@ header .nav-top .right-content .login-div a {
 }
 
 /* Admissions */
+
+.main-box {
+    width: 100%;
+    height: 492.02px;
+    padding: 44px 0px;
+    margin-top: 44px;
+    background-color: #ececec;
+}
+
+.main-content {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.main-content-heading {
+    padding: 0 0 32px;
+    margin: 0 0 42px;
+    font-family: 'Ubunto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    color: #333;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.card1 {
+    background-color: #5954EF;
+    width: 262px;
+    height: 275px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 15px 50px;
+    margin: 0 0 15px;
+}
+
+.card2 {
+    background-color: #06A98D;
+    width: 262px;
+    height: 275px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 15px 50px;
+    margin: 0 0 15px;
+}
+
+.card3 {
+    background-color: #FEC906;
+    width: 262px;
+    height: 275px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 15px 50px;
+    margin: 0 0 15px;
+}
+
+.card4 {
+    background-color: #0D2C62;
+    width: 262px;
+    height: 275px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 15px 50px;
+    margin: 0 0 15px;
+}
+
+.icon-holder {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.cards h5 {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubunto';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    min-height: 44px;
+    text-transform: uppercase;
+}
+
+.cards p {
+    text-align: left;
+    height: 85px;
+    display: block;
+    font-family: 'Opensans';
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 10px 0 0;
+    margin: 0px;
+}
+
+/* News */
+
+.news-box {
+    width: 100%;
+    height: 722.02px;
+    background-color: #0066B3;
+}
+
+.news-content {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.news-content-heading {
+    padding: 30px 0 16px;
+    margin: 0 0 42px;
+    font-family: 'Ubunto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.news-flex {
+    display: flex;
+    gap: 30px;
+    margin-top: -6px;
+}
+
+.img-holder.animation {
+    position: relative;
+    cursor: pointer;
+}
+
+.img-holder.animation img {
+    display: block;
+}
+
+.img-holder.animation .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 102, 179, .7);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.img-holder.animation:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.img-holder.animation .text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: flex;
+    max-width: max-content;
+    height: 50px !important;
+    background-color: #34CC01;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Opensans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.news-section .blog-post-slider .post .post-info .title {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 22px;
+}
+
+.news-section .blog-post-slider .post .post-info .title h5 {
+    height: 80px;
+}
+
+.news-section .blog-post-slider .post .post-info .title .read-more {
+    background-color: #33cc00;
+    color: #fff;
+    font-weight: 700;
+}
+
+.clr {
+    clear: both;
+}
+
+.post-info h5 {
+    font-family: 'Ubunto';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: rgb(255, 203, 5);
+}
+
+.title p {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 0 12px;
+}
+
+.slider-container {
+    position: relative;
+}
+
+.next-icon {
+    position: absolute;
+    top: 53%;
+    right: -14px;
+    font-size: 24px;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Franchise */
+
+.franchise-box {
+    width: 100%;
+    height: 385px;
+    padding: 44px 0px;
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+.franchise-container {
+    width: 1170px;
+    height: 297px;
+}
+
+.franchise-heading {
+    position: relative;
+    padding: 0 0 32px;
+    margin: 0 0 42px;
+    text-align: center;
+    color: #333;
+    font-family: 'Ubunto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.franchise-flex {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.franchise-link {
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+
+    a {
+        outline: none;
+        text-decoration: none;
+    }
+
+    a:hover span {
+        background-color: #0066CC;
+        cursor: pointer;
+    }
+
+    span {
+        width: 140px;
+        height: 140px;
+        display: block;
+        margin: auto auto 10px;
+        background-color: #cccccc;
+        line-height: 140px;
+        text-align: center;
+        border-radius: 100%;
+    }
+
+    span:hover {
+        background-color: #0066CC;
+        cursor: pointer;
+    }
+
+    label {
+        display: block;
+        color: #666666;
+        font-family: 'Opensans';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+    }
+}
+
+/* Toppers */
+
+.topper-box {
+    width: 100%;
+    height: 319.92px;
+    padding: 44px 0px;
+    text-align: center;
+    background-color: #0d2d62;
+}
+
+.topper-container {
+    width: 1165px;
+    height: 231.92px;
+    padding: 0 15px;
+}
+
+.topper-txt {
+    width: calc(100% - 230px);
+    padding-right: 25px;
+    float: left;
+    padding-top: 65px;
+}
+
+.topper-txt-p {
+    color: #fff;
+    padding: 0 0 15px 60px;
+    margin: 0px;
+    position: relative;
+    font-family: 'Opensans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.topper-txt-p:before {
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    content: "";
+    background: url(images/topper-coma.png) no-repeat;
+    width: 53px;
+    height: 42px;
+}
+
+.topper-txt-heading {
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ubunto';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: right;
+
+    span {
+        display: block;
+        color: #69c;
+        font-family: 'Ubunto';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+        padding: 5px 0 0;
+    }
+}
+
+.topper-img {
+    width: 230px;
+    float: right;
+
+    img {
+        width: 100%;
+        border-radius: 100%;
+    }
+}
+
+.next-icon-2 {
+    position: absolute;
+    top: 100px;
+    left: 104%;
+    font-size: 24px;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #fff;
+}
+
+.go-top {
+    position: fixed;
+    bottom: 3px;
+    right: .5em;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 50px;
+    display: none;
+}
+
+.go-top:hover {
+    color: #000;
+}
+
+.footer-top {
+    margin-top: 112px;
+    width: 100%;
+    color: #666666;
+    font-size: 14px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.footer-links {
+    padding: 0 15px 80px;
+
+    h2 {
+        color: #0066b3;
+        font-family: 'Ubunto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: uppercase;
+        padding: 0 0 20px;
+        margin: 0 0 20px;
+    }
+
+    ul,
+    li {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+    li {
+        padding: 0 0 10px;
+    }
+
+    i {
+        display: inline-block;
+        color: #0066b3;
+        margin-right: 10px;
+    }
+
+    a {
+        color: #666;
+        font-family: 'Opensans';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+}
+
+footer .footer-flex .footer-list li:last-child {
+    padding: 30px 0 10px;
+}
+
+footer .footer-flex .footer-list li:last-child a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center !important;
+    line-height: 25px;
+    color: #fff;
+    background: #0066B3;
+    border-radius: 100%;
+}
+
+footer .footer-flex li:last-child i {
+    color: #fff;
+    text-align: center !important;
+    margin-right: 0px;
+}
+
+.sponsor {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.sponsors_small_logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country_list {
+    background: #39478b;
+    padding: 8px 0 8px 0;
+    margin-top: 7px;
+
+    p {
+        color: #fff;
+        font-family: 'Gotham';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+    }
+}
+
+.countries {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom {
+    background-color: #0066b3;
+    padding: 25px 15px;
+
+    a {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Opensans';
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+    }
+
+    .pull-left {
+        float: left !important;
+    }
+
+    .pull-right {
+        float: right !important;
+    }
+}
